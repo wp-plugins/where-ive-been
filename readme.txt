@@ -21,11 +21,11 @@ This plugin is not affiliated with whereivebeen.com.
 
 == Installation ==
 
-1. Download and extract the “where-ive-been” folder
-2. Upload the “where-ive-been” folder to your WordPress plugin directory, usually “wp-content/plugins”
+1. Download and extract the "where-ive-been" folder.
+2. Upload the "where-ive-been" folder to your WordPress plugin directory, usually "wp-content/plugins".
 3. Activate the plugin in your WordPress admin panel
 4. *Optional* If you wish, you may hard code your user id's into the where-ive-been.php file. I only recommend doing this if you know what you're doing.
-5. Place the [whereivebeen uid="" iid="" ] with the required values filled in wherever you wish for your map to be displayed. See usage for more info.
+5. Place the [whereivebeen uid="" iid="" ] with the required values filled in wherever you wish for your map to be displayed. See usage for more info on how to configure the plugin.
 
 Update the plugin simply use Wordpress's built in one-click updater. If you have to upgrade manually simply repeat the installation steps.
 
@@ -70,6 +70,8 @@ Updates will be posted here and at http://www.nicmyers.com/where-ive-been-wordpr
 
 
 == History ==
+0.5.1 [2009.03.18]
+* Minor small fixes
 
 0.5 [2009.03.18]
 

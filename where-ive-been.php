@@ -4,7 +4,7 @@ Plugin Name: Where I've Been
 Plugin URI: http://www.nicmyers.com/where-ive-been-wordpress-plugin/
 Description: Plugin for displaying WhereIveBeen.com maps in your Wordpress blog. Use: [whereivebeen uid='' iid=''] to embed into your post or page. Both values are required. To get them, view the source of your whereivebeen.com profile page and search for uID and iID. See the readme for more info.
 Author: Nic Myers
-Version: 0.5
+Version: 0.5.1
 Author URI: http://www.nicmyers.com
 */
 
@@ -50,7 +50,7 @@ function whereivebeen_output($atts, $content=null) {
 	//echo $wib_uID;
 	//echo $wib_iID;
 	
-ob_start();
+	ob_start();
 	print <<< SWF
 <div class="whereivebeen" style="width:570px;">
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" id="viewMap"align="middle" width="570" height="360"><param name="movie" value="http://static1.whereivebeen.com/swf/3.4/view.swf"><param name="salign" value="ct"><param name="quality" value="high"><param name="wmode" value="transparent"><param name="flashvars" value="env=production&amp;network=wib&amp;networkURL=http://www.whereivebeen.com/&amp;uID={$wib_uID}&amp;iID={$wib_iID}&amp;showroundedcorners={$wib_roundcorners}"><param name="allowScriptAccess" value="always"><param name="scale" value="noscale"><param name="bgcolor" value="#ffffff"><embed src="http://static1.whereivebeen.com/swf/3.4/view.swf" wmode="transparent" flashvars="env=production&amp;network=wib&amp;networkURL=http://www.whereivebeen.com/&amp;uID={$wib_uID}&amp;iID={$wib_iID}&amp;showroundedcorners={$wib_roundcorners}" quality="high" scale="noscale" salign="ct" bgcolor="#ffffff" name="wib-view-map" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" align="middle" width="570" height="360"></embed></object>
