@@ -65,7 +65,7 @@ Updates will be posted here and at http://www.nicmyers.com/where-ive-been-wordpr
 To update the plugin simply use Wordpress's built in one-click updater. If you wish to upgrade manually simply repeat the installation steps.
 
 == History ==
-0.6.0 [2009.03.18]
+0.6.0 [2009.03.20]
 
 * Added: Option to change the width of the map
 * Minor code fixes and readme readability updates
