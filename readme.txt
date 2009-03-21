@@ -15,7 +15,8 @@ Where I've Been embeds your whereivebeen.com maps on your Wordpress blog.
 I created this plugin after searching for an easy way to embed whereivebeen.com maps on Wordpress blogs and not finding one.
 Please visit the plugin homepage (http://www.nicmyers.com/where-ive-been-wordpress-plugin/) for updates and more information.
 
-*0.6.0 New Feature*
+**0.6.0 New Feature**
+
 You can now change the width of your map by adding the width="" attribute to your shortcode. The height is automaticaly calculated for you.
 
 
