@@ -15,8 +15,9 @@ Where I've Been embeds your whereivebeen.com maps on your Wordpress blog.
 I created this plugin after searching for an easy way to embed whereivebeen.com maps on Wordpress blogs and not finding one.
 Please visit the plugin homepage (http://www.nicmyers.com/where-ive-been-wordpress-plugin/) for updates and more information.
 
-*0.6.0 New Feature*
-You can now change the width of your map by adding the width="" attribute to your shortcode. The height is automaticaly calculated for you.
+**0.6.0 New Feature**
+
+You can now change the width of your map by adding the *width=""* attribute to your shortcode. The height is automatically calculated for you.
 
 
 == Installation ==
@@ -45,7 +46,7 @@ Embed maps into your post or page using shortcode: [whereivebeen uid="Required" 
 1. uid = *Required* Your unique 8 digit uID found on your whereivebeen.com profile (see readme).
 2. iid = *Required* Your unique 8 digit iID found on your whereivebeen.com profile (see readme).
 3. roundcorners = *Optional* This option can be set to either 'true' or 'false', the default is 'true'. This option will change the corners on the map window to either round(true) or square(false).
-4. width = *Optional* Set the width if the default (570x360) is too wide for your blog. The height is automatically calculated.
+4. width = *Optional* Set the width if the default (570x360) is too wide for your blog. The height is automatically calculated for you.
 
 
 == Frequently Asked Questions ==
@@ -65,7 +66,7 @@ Updates will be posted here and at http://www.nicmyers.com/where-ive-been-wordpr
 To update the plugin simply use Wordpress's built in one-click updater. If you wish to upgrade manually simply repeat the installation steps.
 
 == History ==
-0.6.0 [2009.03.18]
+0.6.0 [2009.03.20]
 
 * Added: Option to change the width of the map
 * Minor code fixes and readme readability updates
