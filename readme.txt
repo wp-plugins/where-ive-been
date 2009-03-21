@@ -17,7 +17,7 @@ Please visit the plugin homepage (http://www.nicmyers.com/where-ive-been-wordpre
 
 **0.6.0 New Feature**
 
-You can now change the width of your map by adding the width="" attribute to your shortcode. The height is automaticaly calculated for you.
+You can now change the width of your map by adding the *width=""* attribute to your shortcode. The height is automatically calculated for you.
 
 
 == Installation ==
@@ -46,7 +46,7 @@ Embed maps into your post or page using shortcode: [whereivebeen uid="Required" 
 1. uid = *Required* Your unique 8 digit uID found on your whereivebeen.com profile (see readme).
 2. iid = *Required* Your unique 8 digit iID found on your whereivebeen.com profile (see readme).
 3. roundcorners = *Optional* This option can be set to either 'true' or 'false', the default is 'true'. This option will change the corners on the map window to either round(true) or square(false).
-4. width = *Optional* Set the width if the default (570x360) is too wide for your blog. The height is automatically calculated.
+4. width = *Optional* Set the width if the default (570x360) is too wide for your blog. The height is automatically calculated for you.
 
 
 == Frequently Asked Questions ==
